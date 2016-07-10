@@ -1,7 +1,8 @@
 
-nav .icon-logo {
+nav .icon-logo-b {
 font-family: 'Poiret One', cursive;
 margin-left: 12px;
+font-size: 60px;
 }
 
 header.jumbotron {
@@ -202,5 +203,6 @@ a.main-cta svg {
 
 section.section-signup a.main-cta {
   margin-top:15px!important;
+  border-radius: 12px;
   margin-bottom: 15px!important;
 }
