@@ -1,6 +1,7 @@
 
 nav .icon-logo {
 font-family: 'Poiret One', cursive;
+margin-left: 12px;
 }
 
 header.jumbotron {
@@ -76,6 +77,13 @@ section.section-intro {
   text-align: left;
   font-family: 'Open Sans', Arial, sans-serif;
 }
+.section-intro {
+  background: #fff;
+}
+section.phone-demo {
+  background: #fff;
+}
+
 
 section.phone-demo h2 {
   text-align: left;
@@ -102,6 +110,9 @@ section.section-intro .separator,
   width: 60%;
   margin: 20px auto;
 }
+.section-signup {
+  background: #fff;
+}
 
 section.section-intro p.wp-2 {
   text-align: left
@@ -111,6 +122,7 @@ section.section-signup a {
 }
 .section-signup h3 {
   margin: 0;
+  font-family: "Open sans", Arial;
 }
 
 section.section-intro .wp-3 p {
@@ -138,18 +150,29 @@ padding: 5px 15px 5px 5px;
 text-indent: 0;
 text-align: right;
 margin-bottom: 60px!important;
-margin-top: 20px!important;
+margin-top: 30px!important;
 max-width: 180px;
 position: relative;
 -webkit-transition: .5s;
 transition: .5s;
+font-family: 'Open sans', sans-serif;
+}
+
+.jumbotron a.main-cta {
+  background: white;
+  color: #13A6E8;
+  border-color: #fff;
+  border-radius: 12px;
+}
+.jumbotron a.main-cta svg {
+  color: #13A6E8!important;
 }
 
 a.main-cta svg {
   position: absolute;
   top:20%;
   bottom:0;
-  left:5%;
+  left:7%;
 }
 
 #screen {
