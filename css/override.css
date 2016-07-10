@@ -70,6 +70,10 @@ footer.section-footer {
   left:-90px;
 }
 
+img.iphone-gif {
+  max-width: 440px;
+}
+
 section.section-intro {
   padding-bottom: 100px;
 }
@@ -112,6 +116,21 @@ section.section-intro .separator,
 }
 .section-signup {
   background: #fff;
+}
+.listener-signup-copy {
+  font-size: 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-signup .listener-signup-copy {
+  margin-bottom: 20px!important;
+  margin-top: 20px!important;
+}
+.section-signup .listener-signup-copy a {
+  color: rgba(0, 118, 255, 1);
+  text-decoration: underline;
 }
 
 section.section-intro p.wp-2 {
@@ -178,4 +197,10 @@ a.main-cta svg {
 #screen {
   background: blue!important;
   padding: 20px!important;
+}
+
+
+section.section-signup a.main-cta {
+  margin-top:15px!important;
+  margin-bottom: 15px!important;
 }
