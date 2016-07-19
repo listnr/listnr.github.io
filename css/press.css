@@ -1,0 +1,30 @@
+.section-intro,
+.section-signup {
+  background: #fff;
+}
+
+
+.press .download-btn {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background: #13A6E8;
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 1px;
+}
+
+.press .product-screenshot {
+  width: 33%;
+}
+
+.about-us img {
+  border-radius: 120px;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+  border: 2px solid #f3f3f3;
+}
+.about-us p {
+  margin-top: 10px;
+  font-size: 20px;
+}
